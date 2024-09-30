@@ -285,13 +285,13 @@ i.active{
     }
 }
 @media only screen and (max-width: 768px) {
-    .container.active .list-wrapper {
+    .container.active {
         transform: scale(1.1);
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .container.active .list-wrapper {
+    .container.active {
         transform: scale(1.0);
     }
 }
