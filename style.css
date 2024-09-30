@@ -284,6 +284,17 @@ i.active{
         font-size: 18px;
     }
 }
+@media only screen and (max-width: 768px) {
+    .container.active .list-wrapper {
+        transform: scale(1.1);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container.active .list-wrapper {
+        transform: scale(1.0);
+    }
+}
 
 
 
